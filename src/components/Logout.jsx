@@ -15,7 +15,7 @@ function Logout(){
        try{
         const res=await axios({
             method:'get',
-            url:['http://localhost:1234/logout'],
+            url:['https://medicine-backend-05ex.onrender.com'],
             withCredentials:true
          })
 
