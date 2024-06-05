@@ -13,7 +13,7 @@ function Home(){
       try{
         const res=await axios({
             method:'post',
-            url:"https://medicine-backend-05ex.onrender.com",
+            url:"https://medicine-backend-05ex.onrender.com/search",
             withCredentials:true,
             data:{name}
         })
