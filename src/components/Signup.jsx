@@ -16,7 +16,7 @@ function Signup(){
         try{
             const res=await axios({
                 method:'post',
-                url:['http://localhost:1234/signup'],
+                url:['https://medicine-backend-05ex.onrender.com/signup'],
                 withCredentials:true,
                 data:{name,email,password,confirmpassword}
             })
