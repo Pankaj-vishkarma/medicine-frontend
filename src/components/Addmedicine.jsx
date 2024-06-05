@@ -19,7 +19,7 @@ function Addmedicine(){
       try{
         const res=await axios({
             method:'post',
-            url:['http://localhost:1234/addmedicine'],
+            url:['https://medicine-backend-05ex.onrender.com'],
             withCredentials:true,
             data:formdata
            })
